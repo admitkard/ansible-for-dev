@@ -1,0 +1,7 @@
+- name: Dconf settings
+  community.general.dconf:
+    key: "{{ item.path }}/{{ item.key }}"
+    value: "{{ item.value }}"
+    state: present
+  with_items: '{{gnome_settings}}'
+

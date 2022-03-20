@@ -1,0 +1,35 @@
+gnome_extensions:
+  - name: cpupower@mko-sl.de
+    url: https://extensions.gnome.org/extension-data/cpupowermko-sl.de.v26.shell-extension.zip
+  - name: clipboard-indicator@tudmotu.com
+    url: https://extensions.gnome.org/extension-data/clipboard-indicatortudmotu.com.v39.shell-extension.zip
+  - name: netspeed@hedayaty.gmail.com
+    url: https://extensions.gnome.org/extension-data/netspeedhedayaty.gmail.com.v34.shell-extension.zip
+  - name: clipboard-history@alexsaveau.dev
+    url: https://extensions.gnome.org/extension-data/clipboard-historyalexsaveau.dev.v10.shell-extension.zip
+  - name: refresh-wifi@kgshank.net
+    url: https://extensions.gnome.org/extension-data/refresh-wifikgshank.net.v15.shell-extension.zip
+  - name: gnome-clipboard@b00f.github.io
+    url: https://extensions.gnome.org/extension-data/gnome-clipboardb00f.github.io.v10.shell-extension.zip
+  - name: user-theme@gnome-shell-extensions.gcampax.github.com
+    url: https://extensions.gnome.org/extension-data/user-themegnome-shell-extensions.gcampax.github.com.v49.shell-extension.zip
+  - name: sound-output-device-chooser@kgshank.net
+    url: https://extensions.gnome.org/extension-data/sound-output-device-chooserkgshank.net.v40.shell-extension.zip
+  - name: caffeine@patapon.info
+    url: https://extensions.gnome.org/extension-data/caffeinepatapon.info.v40.shell-extension.zip
+  - name: BingWallpaper@ineffable-gmail.com
+    url: https://extensions.gnome.org/extension-data/BingWallpaperineffable-gmail.com.v39.shell-extension.zip
+  - name: tweaks-system-menu@extensions.gnome-shell.fifi.org
+    url: https://extensions.gnome.org/extension-data/tweaks-system-menuextensions.gnome-shell.fifi.org.v18.shell-extension.zip
+  - name: apt-shortcuts@rx1310
+    url: https://extensions.gnome.org/extension-data/apt-shortcutsrx1310.v2.shell-extension.zip
+  - name: colorful-battery-indicator@aneruam
+    url: https://extensions.gnome.org/extension-data/colorful-battery-indicatoraneruam.v4.shell-extension.zip
+  
+gnome_settings:
+  - path: /org/gnome/desktop/wm/preferences
+    key: button-layout
+    value: "\"close,maximize,minimize:\""
+  - path: /org/gnome/desktop/interface
+    key: text-scaling-factor
+    value: 0.75

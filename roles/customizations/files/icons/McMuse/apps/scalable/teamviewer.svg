@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient3153" x1="-26.268" x2="-26.268" y1="9.7703" y2="54.843" gradientTransform="matrix(.26458 0 0 .26458 15.825 -.19764)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#4d4d4d" offset="0"/>
+   <stop stop-color="#1a1a1a" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient938" x1="80.368" x2="82.141" y1="13.177" y2="14.704" gradientTransform="matrix(.99325 .11114 -.11114 .99325 -66.539 -10.274)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#b4b4b4" offset="0"/>
+   <stop stop-color="#646464" offset="1"/>
+  </linearGradient>
+  <linearGradient id="b" x1="494.68" x2="494.68" y1="474.1" y2="624.51" gradientTransform="matrix(.018122 0 0 .018122 -.61413 -1.4953)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" offset="0"/>
+   <stop stop-color="#c7d7e7" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect x="1.1566" y="1.1883" width="14.556" height="14.556" ry="1.2208" fill="#191919"/>
+ <path d="m14.5 1.1888-12.118 0.012402c-0.67208 6.403e-4 -1.2129 0.54232-1.2123 1.2144l0.012401 12.118c6.35e-4 0.67208 0.54237 1.2119 1.2144 1.2113l3.7894-0.0031c3.5541-0.56249 8.7434-2.9602 9.5315-8.6267l0.0083 7.4041-0.01188-12.118c-1e-3 -0.58765-0.41507-1.0743-0.9684-1.187-0.0792-0.01604-0.16145-0.024904-0.24546-0.024804z" fill="url(#linearGradient3153)" stroke-width=".26458"/>
+ <image x="5.6766" y="6.0533" width="10.848" height="11.112" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAqCAYAAAAu9HJYAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAA7hJREFUWIXtl+1rHFUUxn/n3pnZ ze4mO7uxmNBKKkZisaFQqEo/+UX9k0WkglQobRUVUalapFASU0vdl0x2d2buOX6YTbtGG9qal/2Q B+6wLDvLj+c5L1w405nO9NKS0wZ4jma5zJ0axuESwAOO/cccygMxFZ/MI6QD4jRNa8yxk3Gr1WoV RVGjin3uatK12+2GiHSoAAPMl5MCLIzH4673vgHY9BCdKtY/lXQ6neUQwjkzy51zJaAwP05GzWYz FZHzURSlIYR8OBxOmDo5D5BuaWlpqV6vrwEXzEy89xmQMydxO2AReMvMNs0sAraAHlDO/ui05IHF drv9dhRF10Vk3Tm3F0LY6ff7GdN6hNNx0lHNwnYcxxsi8hGwAfxmZvejKHoEFLMvnCSkA5LFxcVW FEWrwGUR+VhENoGHqvpDnuf3syzbZVqLJwnpgHqj0UjjOF4F3hSRK8B7wLqZPRaRu0VRfJ9l2V/M xHxSkEmz2ezU6/W1EMKG9/6Smb0DrIvIa0BPVW+r6ldxHG9xIObjhhQgSdN01Xt/FXjfOfcusCYi 54AEeAzcNbMbRVHcy7Is40DMxw0ZpWm6IiLXgU+Aq865FaBhZgrsAHdU9VPguyzLnjAzck4C0rXb 7ZZzbgP4EPhARM6bWSIiuYj8oap3VfUzM7vd7/d3eE7MxwqZJMlyCOGyiGyKyKqZ1URkbGYPga9V 9XNVvTUYDLaBp+vvJCGTsixXnHObwBtU9bdnZg/M7LaZ3TCzO4PBYAsYv8gfHjWktFqtlpmtA5eA JTPbBe6b2S1V/WIymXw7Go12qHbzC+koIQVo1Gq1i8A1M3tdRPrAz2Z2U1VvlmX502g0OrRJjhPS AY1ut7vGdEiLyBPgRzP7UlW/6fV6D4DhywLC/793C+DTNG05586b2RXv/bUQwrKZ/eKcu6Oq93q9 3p9U9fevbXLckI5qo7TjOF4BLnrvL6iqAL+XZfmr9/5Rr9fLqNw7tIOPGlKoyqSxsLDQrtVqy2a2 7JxbUNVRCGF7d3d3m2fRvjLcy0DK9Dgg6nQ6tclk0vTeLznnGmbmRSSoaqaqvSzLBlSz75Wi/S8d 1jj7YHG3201CCD7P8wbQjaKo7r0fq2ovSZJxURSj4XA4phor4ajgZkEOyk3hfbfbjYuiSEIIiZlF Zuacc7lzrvDel/1+f0y10pQjdO6gZp18GinVlojyPI8A2dvb2+/Mkmdd+vRefNyaddJR3Ttma9BP QfZjPDGwWclzPs9+dypgZzrTPOtvDLedqfaXmz0AAAAASUVORK5CYII= "/>
+ <path d="m15.711 7.0796s-0.28892 3.0633-3.1503 4.2142c-2.364 0.95074 0.63343 2.7752-6.3869 4.4132 9.0769-1.5737 9.6031-8.5845 9.6031-8.5845z" fill="url(#linearGradient938)" stroke-width=".99944"/>
+ <image x="3.1203" y="6.8323" width="10.583" height="4.4978" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAARCAYAAACvi+4IAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAblJREFUSInNlmlvwjAMhp9AWq4V +P//cdI4xrVA96Gv1RCllEvTIlmGNLZfnwk8v5zoXec6hR89bzQAauAiyq2ByOlMHdFda/gAsAHg gRKYACPtmeGcjNfZieQejqS/A5gZKmRoKl4DKyAAZ52vM3IzYC5n9sBO/CS5LgdvArSIDWkj9gFU 4oUMHaQjZ8RJfgQs5VgAtsBGfCegoQtoCjBO5SgCNhefad9qzoz+dDha0Ea8ku4KWAikUQz0HAN1 EXdSOJbSKqKpgHkZCVK6oYnirSYZRzos2gE40qQ6BXqQwxegdpGiUlFainLAHG0XhpzHybI0+0gH tN2fAv0SbRTRi08UjWnSWNGm03M9y4ybwb6RYWXjMntF9BsBPgjwjxkxj876+C1B239nBA1kVwS3 whBMZ18NWnPkanAPrGXAxky6Xq7BOII1bSdZJNdcj5cZTa3W+v5JMwtvdfE8imKQDWuw3i5Ox4yl 2rw0oCvyc9AMHcnPwVI29vr/8Bzsu3rSm8SaKL5JLM3xHWtyJc3MW/DkTXLv3WgGLVUlbS1eFXUi 4+VUISAnmnKwNPY+Gv79a+aV9SfvwV+CuMT/ChBJNQAAAABJRU5ErkJggg== "/>
+ <path class="cls-1" d="m13.087 8.366-3.4689-1.6039 0.27868 1.0277h-2.8982l0.27868-1.0277-3.4689 1.605 3.4713 1.6039-0.27868-1.0277h2.8982l-0.27868 1.0277 3.4665-1.6039" fill="url(#b)" stroke-width=".18537"/>
+</svg>

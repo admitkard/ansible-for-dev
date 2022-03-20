@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient1954" x1="-19" x2="-19" y1="6" y2="47" gradientTransform="translate(-24.298 -2.0447)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#37a476" offset="0"/>
+   <stop stop-color="#2b7e53" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient6915" x1="3" x2="-1" y1="5" y2="9" gradientTransform="rotate(180 -14.149 8.9776)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#37a174" offset="0"/>
+   <stop stop-color="#359b67" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(62.298 .044726)">
+  <path d="m-52.298 1.9553c-2.216 0-4 1.784-4 4v36c0 2.216 1.784 4 4 4h28c2.216 0 4-1.784 4-4v-28l-12-12z" fill="url(#linearGradient1954)" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7841" style="paint-order:stroke fill markers"/>
+  <image x="-34.298" y=".95527" width="16" height="16" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAS1JREFUOI2d0r1qAkEQB/D5uLtc 4R2i2BwWC0qadClShWCZJqWPkXfw0awDQppYW0iuEGwkmLtz55/CIocxJOvAwO4Wv53ZWaJjMF0Y SjQT59zVaHTHZblAKCCTCUmep3kUWW88fk5Cq9F+/1oBzgHrJkktnc59vd2+2L8rICJK0wMDlqhy L8s++iGVyPcyJkCDEWlvAONQRE4PQpEfQChyFghBJMsK1LUZUXMRIoPBG0SiWsTOzv4vRJfLJTn3 AO8tNaOY+VxbYCJVESRxXHP7sykR0Xr9aEWx8yIcMbMAHoAA4FYSAGNmiVXJhsPbuiwXpscb5ijL p8Y523vfVIBVcWyfqrZvpwjto0iqw0F8t1s1q9WrP31Vnk6nstnc8G73/uvss6zAfE5GNLMv3DGy x2V2bBMAAAAASUVORK5CYII= "/>
+  <path d="m-20.298 13.955-12-12v8c0 2.216 1.784 4 4 4z" fill="url(#linearGradient6915)" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7841" style="paint-order:stroke fill markers"/>
+ </g>
+ <path d="m24 31.913-6.913-6.9136 6.913-6.9125 2.3045 2.304-4.609 4.6085 2.3043 2.3045 6.913-6.9125-6.022-6.022c-0.49175-0.49216-1.2893-0.49216-1.7816-6e-6l-9.7401 9.7401c-0.49174 0.49174-0.49174 1.2893 1e-6 1.7816l9.7401 9.7401c0.49216 0.49216 1.2898 0.49216 1.7816-1e-6l9.7401-9.7401c0.49175-0.49216 0.49175-1.2898 0-1.7816l-1.4139-1.4136-9.217 9.2172z" fill="#fff" stroke-width=".94262"/>
+</svg>

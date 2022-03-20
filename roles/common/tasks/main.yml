@@ -1,0 +1,37 @@
+- name: Add Apt Repositories
+  apt_repository:
+    repo: "deb http://archive.ubuntu.com/ubuntu/ focal universe"
+    state: present
+  become: true
+
+# - name: Update and upgrade
+#   apt: 
+#     upgrade: "yes"
+#     update_cache: "yes"
+
+- name: Install bash apps
+  apt:
+    name:
+      [
+        "curl",
+        "wget",
+        "jq",
+        "neofetch",
+        "peek",
+        "xclip",
+        "btop",
+        "bat",
+        "gnome-tweaks",
+        "openjdk-8-jdk",
+        "dbus-x11",
+      ]
+    state: present
+  become: true
+   
+- name: Create tmp download directory
+  file:
+    path: "{{download_location}}"
+    state: directory
+
+- import_tasks: gconf_settings.yml
+- import_tasks: gnome_extensions.yml

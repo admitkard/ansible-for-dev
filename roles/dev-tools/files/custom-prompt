@@ -1,0 +1,14 @@
+function parse_git_branch() {
+  BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
+  if [ ! "${BRANCH}" == "" ]
+  then
+    echo "(${BRANCH})"
+  else
+    echo ""
+  fi
+}
+
+export PS1="\[\e[32m\]\u\[\e[m\]:\W\[\e[33m\] \`parse_git_branch\`\[\e[m\] \[\e[1m\]\$ \[\e[0m\]"
+export JIRA_USER="piyush.kumar@admitkard.com"
+export JIRA_PASS="ToSghUi7y0q1Rs0y1odo7F0B"
+source ~/.dev-help.sh

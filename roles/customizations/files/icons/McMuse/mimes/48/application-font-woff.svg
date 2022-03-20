@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient1954" x1="-19" x2="-19" y1="6" y2="47" gradientTransform="translate(38,-2)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ededed" offset="0"/>
+   <stop stop-color="#e5e5e5" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient6915" x1="3" x2="-1" y1="5" y2="9" gradientTransform="rotate(180 17 9)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#f3f3f3" offset="0"/>
+   <stop stop-color="#ebebeb" offset="1"/>
+  </linearGradient>
+ </defs>
+ <path d="m10 2c-2.216 0-4 1.784-4 4v36c0 2.216 1.784 4 4 4h28c2.216 0 4-1.784 4-4v-28l-12-12z" fill="url(#linearGradient1954)" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7841" style="paint-order:stroke fill markers"/>
+ <g transform="matrix(2.3102 0 0 2.3102 -45.056 -20.771)">
+  <path d="m29.014 16.437-9e-6 3.7431 1.7346 4e-6c0.39796 1e-6 0.68824-0.08661 0.87084-0.25985 0.18727-0.1779 0.31136-0.5267 0.37222-1.0464l0.25985 1e-6 -7e-6 3.2235-0.25985-1e-6c-0.0047-0.36986-0.05385-0.64141-0.14748-0.81464-0.08896-0.17323-0.21538-0.30198-0.37922-0.38626-0.15921-0.08892-0.39796-0.13344-0.71632-0.13344l-1.7346-3e-6 -8e-6 2.9918c-3e-6 0.48224 0.03043 0.8006 0.09129 0.9551 0.04681 0.11706 0.14514 0.21772 0.29497 0.302 0.206 0.11235 0.42138 0.16854 0.64611 0.16854l0.34413 1e-6 -1e-6 0.25985-4.0873-1e-5v-0.25985l0.3371 1e-6c0.39327 1e-6 0.67887-0.1147 0.8568-0.34413 0.11236-0.14982 0.16855-0.51031 0.16855-1.0815l1.3e-5 -6.152c0-0.48222-0.03043-0.8006-0.09129-0.9551-0.04682-0.11704-0.1428-0.2177-0.28793-0.30198-0.20134-0.11232-0.41668-0.16854-0.64611-0.16855l-0.3371-1e-6 1e-6 -0.25985 7.0861 1.7e-5 0.09129 2.0929h-0.24581c-0.12174-0.44477-0.26454-0.77016-0.42838-0.97617-0.15919-0.21067-0.35817-0.36285-0.59695-0.45649-0.2341-0.09363-0.59928-0.14045-1.0956-0.14046l-2.0999-6e-6" opacity=".4" stroke-width=".19976"/>
+ </g>
+ <image x="28" y="1" width="16" height="16" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAS1JREFUOI2d0r1qAkEQB/D5uLtc 4R2i2BwWC0qadClShWCZJqWPkXfw0awDQppYW0iuEGwkmLtz55/CIocxJOvAwO4Wv53ZWaJjMF0Y SjQT59zVaHTHZblAKCCTCUmep3kUWW88fk5Cq9F+/1oBzgHrJkktnc59vd2+2L8rICJK0wMDlqhy L8s++iGVyPcyJkCDEWlvAONQRE4PQpEfQChyFghBJMsK1LUZUXMRIoPBG0SiWsTOzv4vRJfLJTn3 AO8tNaOY+VxbYCJVESRxXHP7sykR0Xr9aEWx8yIcMbMAHoAA4FYSAGNmiVXJhsPbuiwXpscb5ijL p8Y523vfVIBVcWyfqrZvpwjto0iqw0F8t1s1q9WrP31Vnk6nstnc8G73/uvss6zAfE5GNLMv3DGy x2V2bBMAAAAASUVORK5CYII= "/>
+ <path d="m42 14-12-12v8c0 2.216 1.784 4 4 4z" fill="url(#linearGradient6915)" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7841" style="paint-order:stroke fill markers"/>
+</svg>

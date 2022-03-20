@@ -1,0 +1,8 @@
+- hosts: laptop
+  roles:
+    - ide
+    - dev-tools
+
+  post_tasks:
+    - name: Pin Favorites
+      shell: gsettings set org.gnome.shell favorite-apps "{{pinned_favorites}}"

@@ -1,0 +1,23 @@
+- name: Download Gnome Extensions
+  get_url:
+    url: '{{item["url"]}}'
+    dest: '{{download_location}}{{item["name"]}}.zip'
+  with_items: '{{gnome_extensions}}'
+  
+- name: Install Gnome Extensions
+  shell: gnome-extensions install '{{download_location}}{{item["name"]}}.zip' --force
+  with_items: '{{gnome_extensions}}'
+
+- name: Add Gnome Extensions to enabled list
+  set_fact:
+    enabled_gnome_extensions: "{{enabled_gnome_extensions + [item.name]}}"
+  with_items: '{{gnome_extensions}}'
+
+- name: Enable Gnome Extensions
+  community.general.dconf:
+    key: /org/gnome/shell/enabled-extensions
+    value: '{{ enabled_gnome_extensions }}'
+    state: present
+
+- name: Install Cpufreq
+  shell: 'sudo ~/.local/share/gnome-shell/extensions/cpupower@mko-sl.de/tool/installer.sh'

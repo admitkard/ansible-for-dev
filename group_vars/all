@@ -1,0 +1,34 @@
+current_user: "{{lookup('env', 'USER')}}"
+home: "/home/{{current_user}}"
+
+pinned_favorites: []
+enabled_gnome_extensions: ['ubuntu-dock@ubuntu.com']
+
+download_location: /tmp/Downloads/
+chrome:
+  download_url: 'https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb'
+  destination: 'google-chrome.deb'
+
+vscode:
+  download_url: 'https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64'
+  destination: 'vscode.deb'
+
+nvm:
+  download_url: 'https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh'
+  destination: 'nvm-install.sh'
+
+yarn:
+  download_url: 'https://yarnpkg.com/install.sh'
+  destination: 'yarn-install.sh'
+
+teams:
+  download_url: 'https://go.microsoft.com/fwlink/p/?LinkID=2112886&clcid=0x409&culture=en-us&country=US'
+  destination: 'teams.deb'
+
+compass:
+  download_url: 'https://downloads.mongodb.com/compass/mongodb-compass_1.30.1_amd64.deb'
+  destination: 'mongodb-compass.deb'
+
+nosqlbooster:
+  download_url: 'https://s3.mongobooster.com/download/releasesv7/nosqlbooster4mongo-7.1.0.AppImage'
+  destination: 'nosqlbooster.AppImage'

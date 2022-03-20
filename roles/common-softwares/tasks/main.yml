@@ -1,0 +1,22 @@
+- name: Download Chrome
+  get_url: url={{chrome["download_url"]}} dest={{download_location}}{{chrome["destination"]}}
+
+- name: Install Chrome
+  apt: deb={{download_location}}{{chrome["destination"]}}
+  become: true
+
+- name: Install Firefox
+  apt:
+    name: firefox
+    state: present
+  become: true
+
+- name: Install VLC
+  apt:
+    name: vlc
+    state: present
+  become: true
+
+- name: Favorites
+  set_fact:
+    pinned_favorites: "{{pinned_favorites + ['google-chrome.desktop', 'nautilus.desktop'] }}"

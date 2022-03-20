@@ -1,0 +1,73 @@
+- name: Download VSCode
+  get_url: url={{vscode["download_url"]}} dest={{download_location}}{{vscode["destination"]}}
+
+- name: Install VSCode
+  apt: deb={{download_location}}{{vscode["destination"]}}
+  become: true
+
+
+- name: Add VSCode to Favorites
+  set_fact:
+    pinned_favorites: "{{pinned_favorites + ['code.desktop'] }}"
+
+- name: Install VSCode extensions
+  shell: code --user-data-dir {{home}}/.vscode/ --extensions-dir {{home}}/.vscode/extensions/ --install-extension {{item}}
+  args:
+    creates: "{{home}}/.vscode/extensions/"
+  with_items:
+    - atlassian.atlascode
+    - azemoh.one-monokai
+    - CoenraadS.bracket-pair-colorizer
+    - dbaeumer.vscode-eslint
+    - developer2006.svg-gallery
+    - eamodio.gitlens
+    - esbenp.prettier-vscode
+    - GitHub.github-vscode-theme
+    - HookyQR.beautify
+    - infarkt.css-to-jss
+    - janjoerke.jenkins-pipeline-linter-connector
+    - jduponchelle.jira-link
+    - jock.svg
+    - mechatroner.rainbow-csv
+    - ms-vsliveshare.vsliveshare
+    - redhat.vscode-yaml
+    - streetsidesoftware.code-spell-checker
+    - tabeyti.jenkins-jack
+    - VisualStudioExptTeam.vscodeintellicode
+    - vscode-icons-team.vscode-icons
+    - WakaTime.vscode-wakatime
+    - wmaurer.change-case
+    - yzhang.markdown-all-in-one
+
+- name: Download MongoDB Compass
+  get_url: url={{compass["download_url"]}} dest={{download_location}}{{compass["destination"]}}
+
+- name: Install MongoDB Compass
+  apt: deb={{download_location}}{{compass["destination"]}}
+  become: true
+
+- name: Copy NoSQLBooster Files
+  copy:
+    src: nosqlbooster
+    dest: "{{home}}/.local/share"
+  become: true
+  
+- name: Download NoSQLBooster
+  get_url: url={{nosqlbooster["download_url"]}} dest={{home}}/.local/share/nosqlbooster/{{nosqlbooster["destination"]}}
+  become: true
+
+- name: Add Execution permission to NoSQLBooster
+  file:
+    path: "{{home}}/.local/share/nosqlbooster/{{nosqlbooster[\"destination\"]}}"
+    mode: u+x,g+x,o+x
+
+- name: Add NoSQLBooster Icon
+  copy:
+    src: "{{home}}/.local/share/nosqlbooster/nosqlbooster.desktop"
+    dest: "{{home}}/.local/share/applications/nosqlbooster.desktop"
+  become: true
+
+- name: Add Execution permission to NoSQLBooster Icon
+  file:
+    path: "{{home}}/.local/share/applications/nosqlbooster.desktop"
+    mode: u+x,g+x,o+x

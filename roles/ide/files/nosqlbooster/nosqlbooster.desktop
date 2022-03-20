@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=NoSQLBooster
+Exec=~/.local/share/nosqlbooster/nosqlbooster.AppImage
+Icon=~/.local/share/nosqlbooster/nosqlbooster.png
+Comment=The Smartest GUI Tool and IDE for MongoDB
+Type=Application
+Terminal=false
+Encoding=UTF-8
+Categories=IDE,Development

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Flamingo" width="64" height="64" enable-background="new 0 0 1024 1024" image-rendering="optimizeSpeed" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <linearGradient id="linearGradient2670-1" x1="115.54" x2="116.74" y1="32.849" y2="19.81" gradientTransform="matrix(3.49 0 0 3.49 -399.56 -55.194)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#afbec8" offset="0"/>
+   <stop stop-color="#d2dceb" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient938-3" x1="80.368" x2="82.141" y1="13.177" y2="14.704" gradientTransform="matrix(3.4664 .38788 -.38788 3.4664 -227.29 -32.882)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fafafa" offset="0"/>
+   <stop stop-color="#90a0b3" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect transform="rotate(-6.4422)" x="1.1943" y="10.944" width="50.786" height="50.786" ry="4.2361" fill="url(#linearGradient2670-1)" stroke-width="3.49"/>
+ <rect transform="rotate(-.057549)" x="8.947" y="7.1795" width="50.758" height="50.758" ry="4.2337" fill="#f3f3f3" stroke-width="3.488"/>
+ <image x="23.158" y="22.448" width="39.705" height="41.552" opacity=".6" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAAtCAYAAAA3BJLdAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAABAlJREFUWIXtmGtvG0UUhp9zZuzY a683t+KSXrj0khYKQqLwnb9OkRCo9AJVBaiiFa0obbkkXifb7Hrm8MHeYkVpCGri+ENeaaRd7Wrn 0TvnnDk7cKITnehEAO64Af5DAmh9o/u8eNyqQXVyjT9WnP3lGPPZZMytswI0gBZToTqvsD7LslaS JAlTqz+PYeCAhbIsO2bmmOMEE6CZJEnPe99hzBfrh/MEK0Cj2+2mqrrknEtarZYBgQnwPME6oAuc 8t6vxBi9c64CRvUL8xKzCrTTNH2r0WicMbOGquZlWb5k7OzclC4BWr1er++9vyAia4DEGId5nheM YYHjh1WglWXZaVW9BnwAdM1sEGPcAEomrsLxhYEAfmlpKXHO9WOMn4jIp2bWAO6EEH4fDoc5U67C 7GF1MudCu91eFJFzwMfAdSBT1fuj0ehRnucv2OXqLGGV8fbZXlxczJxzp2OMF0Tkmpl9BPSAB8BP ZvYY2GKqvs4S1gNJlmUrqroGvGtmF0XkCvAe0BGRh2Z2bzQa/eic+xOoXveho1QjTdNMVc+r6lXg qohcBM6r6ilAY4xPzOz7GOPdEMKTzc3NbXYt/yxgfZqmGXDZOfe5iFwHLplZH+iYWQX8Ctw2s2/L snxQFMWAXUk1C1gB2s65s6r6mYh8wbgsrYhI08wK4CnwHXDDzO4VRfEHsMNrXD1KWNdut3uqelFE rovIh8BpwJnZtog8NrObZnYjhHB3MBg8A17uB3qUsF5Vl0VkHVg3s1URccAQeATcNLMvR6PRrTzP nwIFe2T/LGA1y7K2c24txriuqm8D3sw2zewh8E0I4Sszu5Pn+W8T0H0dPSpYARa89/0QwmXn3LnJ HC/M7MFk6b8Gfpgs/YFBDxtWgMbq6upSCOF9EbkEdICnNaiq3oox/ryxsfGCA8ToUcEK0Ox2u1mM 8R0RWReRFeBZjPGhiNwOIdwry/Lx1tbW3+yxlR50kjeVAs1Op5N578+q6hURuQwkjMvT/aqqfnHO Pd/Y2Nhi3Ez/b9A3hRXG3X0rSZJes9nsi8gZETkFqJk9Bx5VVfVs0kGV7FPwjwq2PiHxWZYlIpIB i8CiqrZCCKWI/FWW5fPt7e26J33V7c8CtnZR+/1+oyiKhaqqOt77tnOubWYesBBCEULIi6LYZJzp hwJZa78EkylIDzTTNG1UVdUys0RVF8wsxhi3qqracc7tDIfDgvGWOeIARf4wYOsDMV+PNE19CKHp nGuGEFxVVWWn09na2dkpm83my8FgUP+FHqqTe4HthqydbAC+2+1OH4vacDgMjOOw4t9/+leHZ7OS Ak0gWV1dTYEU6C0vL/cm18nkuWfqGHKW2svZGqR2yvYYc6U6uU50ohO9gf4BQCi0cdDLtxYAAAAA SUVORK5CYII= "/>
+ <path d="m56.366 7.2115c-0.2764-0.055984-0.56241-0.08519-0.8556-0.084839l-42.291 0.043242c-2.3455 0.00222-4.2323 1.8914-4.2302 4.2368l0.043278 42.291c0.00222 2.3455 1.8915 4.2305 4.2368 4.2285l13.226-0.01257c12.404-1.9631 30.515-10.331 33.265-30.107l0.02789 25.84-0.04183-42.291c-0.0037-2.0523-1.4498-3.7542-3.3829-4.1457z" fill="#fafafa" stroke-width="3.488"/>
+ <path d="m59.751 27.684s-1.0083 10.691-10.994 14.707c-8.2503 3.3181 2.2107 9.6854-22.29 15.402 31.678-5.4922 33.515-29.96 33.515-29.96z" fill="url(#linearGradient938-3)" stroke-width="3.488"/>
+ <g fill="#dc3c3c" stroke-width="3.5692">
+  <rect transform="rotate(30)" x="23.537" y="6.8695" width="11.08" height="1.7955" ry=".89776" style="paint-order:stroke fill markers"/>
+  <rect transform="matrix(.86603 -.5 -.5 -.86603 0 0)" x="-.063219" y="-34.008" width="11.08" height="1.7955" ry=".89776" style="paint-order:stroke fill markers"/>
+  <rect transform="scale(1,-1)" x="25.294" y="-32.744" width="11.08" height="1.7955" ry=".89776" style="paint-order:stroke fill markers"/>
+ </g>
+</svg>

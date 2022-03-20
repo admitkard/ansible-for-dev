@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css"/>
+  <style type="text/css"/>
+  <style type="text/css"/>
+  <style type="text/css"/>
+  <style type="text/css"/>
+  <style type="text/css"/>
+  <style type="text/css"/>
+  <style type="text/css"/>
+  <style type="text/css"/>
+  <style type="text/css"/>
+  <style type="text/css"/>
+  <style type="text/css"/>
+  <style type="text/css"/>
+  <style type="text/css"/>
+  <style type="text/css"/>
+  <style type="text/css"/>
+  <style type="text/css"/>
+  <style type="text/css"/>
+  <style type="text/css"/>
+  <style type="text/css"/>
+  <style type="text/css"/>
+  <linearGradient id="linearGradient1005-3-3" x1="7.4778" x2="9.0954" y1="15.67" y2="2.7627" gradientTransform="matrix(3.7795 0 0 3.7795 -.13679 .024227)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fe6d00" offset="0"/>
+   <stop stop-color="#fe7100" offset=".36953"/>
+   <stop stop-color="#ffb400" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g transform="matrix(3.7796 0 0 3.7796 101.58 7.0751)" fill="#5e4aa6" stroke-width=".26458">
+  <circle cx="-330.35" cy="-328.38" r="0"/>
+  <circle cx="-312.11" cy="-326.25" r="0"/>
+  <circle cx="-306.02" cy="-333.07" r="0"/>
+  <circle cx="-308.84" cy="-326.01" r="0"/>
+ </g>
+ <g fill="#5e4aa6">
+  <circle cx="-1248.7" cy="-1241.6" r="0"/>
+  <circle cx="-149.15" cy="23.855" r="0" fill-rule="evenodd"/>
+  <circle cx="-1150.9" cy="-1256.6" r="0"/>
+  <circle cx="-51.327" cy="8.8744" r="0" fill-rule="evenodd"/>
+  <g transform="matrix(3.7796,0,0,3.7796,167.86,4.61)" stroke-width=".26458">
+   <g transform="translate(-.0272 .0065001)">
+    <circle cx="-330.35" cy="-328.38" r="0"/>
+    <circle cx="-312.11" cy="-326.25" r="0"/>
+    <circle cx="-306.02" cy="-333.07" r="0"/>
+    <circle cx="-308.84" cy="-326.01" r="0"/>
+    <circle cx="-330.35" cy="-328.38" r="0"/>
+    <circle cx="-312.11" cy="-326.25" r="0"/>
+    <circle cx="-306.02" cy="-333.07" r="0"/>
+    <circle cx="-308.84" cy="-326.01" r="0"/>
+   </g>
+   <g transform="translate(-.02705 .0064503)">
+    <circle cx="-330.35" cy="-328.38" r="0"/>
+    <circle cx="-312.11" cy="-326.25" r="0"/>
+    <circle cx="-306.02" cy="-333.07" r="0"/>
+    <circle cx="-308.84" cy="-326.01" r="0"/>
+   </g>
+  </g>
+  <g stroke-width=".26458">
+   <g transform="matrix(3.7796,0,0,3.7796,184.14,-27.661)">
+    <g transform="translate(-.0272 .0065001)">
+     <circle cx="-330.35" cy="-328.38" r="0"/>
+     <circle cx="-312.11" cy="-326.25" r="0"/>
+     <circle cx="-306.02" cy="-333.07" r="0"/>
+     <circle cx="-308.84" cy="-326.01" r="0"/>
+     <circle cx="-330.35" cy="-328.38" r="0"/>
+     <circle cx="-312.11" cy="-326.25" r="0"/>
+     <circle cx="-306.02" cy="-333.07" r="0"/>
+     <circle cx="-308.84" cy="-326.01" r="0"/>
+    </g>
+    <g transform="translate(-.02705 .0064503)">
+     <circle cx="-330.35" cy="-328.38" r="0"/>
+     <circle cx="-312.11" cy="-326.25" r="0"/>
+     <circle cx="-306.02" cy="-333.07" r="0"/>
+     <circle cx="-308.84" cy="-326.01" r="0"/>
+    </g>
+   </g>
+   <g transform="matrix(3.7796,0,0,3.7796,97.525,-34.145)">
+    <circle cx="-330.35" cy="-328.38" r="0"/>
+    <circle cx="-312.11" cy="-326.25" r="0"/>
+    <circle cx="-306.02" cy="-333.07" r="0"/>
+    <circle cx="-308.84" cy="-326.01" r="0"/>
+   </g>
+   <g transform="matrix(3.7796,0,0,3.7796,97.524,-34.145)">
+    <circle cx="-330.35" cy="-328.38" r="0"/>
+    <circle cx="-312.11" cy="-326.25" r="0"/>
+    <circle cx="-306.02" cy="-333.07" r="0"/>
+    <circle cx="-308.84" cy="-326.01" r="0"/>
+   </g>
+  </g>
+  <g transform="translate(97.627,-34.169)">
+   <circle cx="-1248.7" cy="-1241.6" r="0"/>
+   <circle cx="-149.15" cy="23.855" r="0" fill-rule="evenodd"/>
+   <g transform="matrix(3.7796,0,0,3.7796,86.508,6.5083)" stroke-width=".26458">
+    <g transform="translate(-.0272 .0065001)">
+     <circle cx="-330.35" cy="-328.38" r="0"/>
+     <circle cx="-312.11" cy="-326.25" r="0"/>
+     <circle cx="-306.02" cy="-333.07" r="0"/>
+     <circle cx="-308.84" cy="-326.01" r="0"/>
+     <circle cx="-330.35" cy="-328.38" r="0"/>
+     <circle cx="-312.11" cy="-326.25" r="0"/>
+     <circle cx="-306.02" cy="-333.07" r="0"/>
+     <circle cx="-308.84" cy="-326.01" r="0"/>
+    </g>
+    <g transform="translate(-.02705 .0064503)">
+     <circle cx="-330.35" cy="-328.38" r="0"/>
+     <circle cx="-312.11" cy="-326.25" r="0"/>
+     <circle cx="-306.02" cy="-333.07" r="0"/>
+     <circle cx="-308.84" cy="-326.01" r="0"/>
+    </g>
+   </g>
+  </g>
+  <circle cx="-1248.7" cy="-1241.6" r="0"/>
+ </g>
+ <path d="m62 32c0 3.5964-0.63304 7.0444-1.7939 10.24-0.80695 2.2212-1.8686 4.3212-3.1518 6.2636-0.53753 0.8167-1.1155 1.6053-1.729 2.3633-1.964 2.4257-4.2982 4.5378-6.9182 6.2522-0.96489 0.63184-1.9678 1.2098-3.0061 1.7277-4.0321 2.0179-8.5839 3.1529-13.401 3.1529-4.8171 0-9.3689-1.1351-13.401-3.153-1.0384-0.518-2.0425-1.0959-3.0074-1.7277-2.6535-1.7376-5.0155-3.8832-6.9953-6.349-0.61464-0.76408-1.1914-1.56-1.729-2.3841-1.249-1.9101-2.2836-3.9712-3.0746-6.1494-1.1607-3.1948-1.7926-6.6415-1.7926-10.237 0-16.569 13.431-30 30-30 8.317 0 15.843 3.3845 21.277 8.8503 1.5661 1.5746 2.9584 3.3233 4.1436 5.2136 1.1204 1.7805 2.0571 3.6881 2.7857 5.6951 1.161 3.1959 1.794 6.6442 1.794 10.24z" fill="url(#linearGradient1005-3-3)" stroke-width=".11719"/>
+ <image x="8.9167" y="11.083" width="46" height="46" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAABJZJREFUaIHNWdmS2zAMQ8510v7/ l7a7m9N9CLGCYMpHkodqRuNtKksgBYGkvMJ722rmuP7VhbavTiBtZd1bb0//fVF7FjiB9fL3OvpG /lZwPYB79F6eOmZ2Wwp8ZU/9fQ1gH32HhwErA30DcI0nO41ZBH4ucPUqQRKQzvUB4AigC/A6jqCv AC4AzvHkbzRilgFzgJOzpMFWAOliWzy8fQTwK4wgXTj2FmAvAE7Sz9Gvc8FvZoLeBKgu+kcAJRVW eHj4EKB/yzhSZ4eaSuw8E4vamMfVy/sAcUDx5CXGkbscv0XZGZ2fHrzJfDRsL+994+F9zp16vgXc QdOTx/g3YgFy9Y5aCqkqmTSSZmocu75zGgOfAdfFCfp39AMe20u+btDWbWBchdTATTJXj4dTUv1v eXwdADsUzvLAbWLCMdC9dD0HboTO4aAz7W8CV56S06TIQca3aKALkftr5KBdYh0036cS0QED4Kog 9PYRQ10mn72pXl9QU8CjaWYA13XNp+RWlHGPczF6m6D3qCNhq91jsRPKGeDB26EcQAft4LuYx/X9 xhe38iJpsgvg1OE5Wqvbe0Hh9AqFdpQ+yp5735WsC9AMUFVwcqrQYl9oToAgcM1FKHtUJ3VGywCP HR8o0ss5BxwncL7k2jqVQ5CfPUoegpiT204DGEEz+lAgiGOPh+d/zsbWBtPSbEvnNKUMOXpHSajO qA3I6KP6nqUGdwRVsiTKJ5pb2agBmsYCJStUAw5igHtfwQ8iq1IlA74UcGZApu2ZAS4GQJFSgv7Z fVcV19xXgSv4VmDRfkPhv3p+kBJkAYi0eYYiUwYA5fAqla7yO7HsUPO9wpMBf5enx8AzEmoVRc9S 1baoDamAL07g/5eWJfpeS76z+Y0AU4FOuqYXiq3C5cA1hdS09F2gVXZJiQ5FFj2hY5hXTBXw7MQ3 y6YnAVO13MsE7XKo50FTiEHI93uPO15vLrOawB2ka7TObgbU8yBwD9OMcHwpy6EzgP4kJbQMZLqs ETML+br7evfyQxmlike1S0zqPM/qRebeClZ3k9RQWniSpWvQu5omVPT1w3lDnQOzxsyKXT1g6lXu IhOiJWltlqQRiwaoFLjeMmlqy/xBD1knixA4x9E7miZntHCncOcJ+gTLxRW4nmCWXl+oD4xGVZZ3 LBR4FrKiIyvdsuJZ6XrGo3j4CiwVvxW4WsstUuBKFy3xmFPcUfMeNnasWCZo3XGC/sKwbPvxhr4M sZgcVuDudXpZa8zW5c/UHYyD/kS5jqs0HJi+9NTFlZOeSapHvbdAe4Ah6L8A/sST/B6kIRnwLEfQ /5vqrXEO2CXYQQ8K5Cng2jwN1d8ybZ/T/KKfQvBpoFOKzAWuoLMEzMG0chu+36OOzt8B2D1N0Iuv mXUxoFTr9BJrRb24Hyv51HBSgzpN9fhGkb7JJG/qU4p6Shfmoryw0SuE7LpYE6bsUwoP4UCvW20u L/2WSYOK5hweFdX4t368WlokZAmWXiGMfeMksNbnwkWV1zPVTSZ5Y7qdXdJnh3xR0fJKWdaSw9ac rZr2qSrrnfXkkvZySfgPF0gTT2DGinkAAAAASUVORK5CYII= "/>
+ <path d="m32 13.018a18.983 18.983 0 0 0-3.1639 0.26879v26.624c0 0.87639-0.70554 1.5819-1.5819 1.5819h-1.5819c-0.87639 0-1.5819-0.70552-1.5819-1.5819v-25.142a18.983 18.983 0 0 0-11.073 17.231 18.983 18.983 0 0 0 18.983 18.983 18.983 18.983 0 0 0 18.983-18.983 18.983 18.983 0 0 0-18.983-18.983m-0.78477 9.4914a0.79103 0.86294 0 0 1 0.37694 0.10827l14.237 8.6294a0.79103 0.86294 0 0 1 0 1.5078l-14.237 8.6294a0.79103 0.86294 0 0 1-1.1741-0.75386v-17.259a0.79103 0.86294 0 0 1 0.79714-0.86201" fill="#fff" stroke-linejoin="round" stroke-width="4.7457"/>
+</svg>

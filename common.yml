@@ -1,0 +1,16 @@
+- hosts: laptop
+  roles:
+    - common
+    - common-softwares
+
+  pre_tasks:
+    - name: Community Install
+      shell: ansible-galaxy collection install {{ item }}
+      args:
+        creates: "{{ansible_user_dir}}/.ansible/collections/ansible_collections/{{ item | replace('.', '/') }}"
+      with_items:
+        - community.general
+
+  post_tasks:
+    - name: Pin Favorites
+      shell: gsettings set org.gnome.shell favorite-apps "{{pinned_favorites}}"

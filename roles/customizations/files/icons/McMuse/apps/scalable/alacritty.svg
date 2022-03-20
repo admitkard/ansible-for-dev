@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" viewBox="0 0 16.933 16.933" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient890" x1="7.9796" x2="7.6489" y1="16.099" y2="2.6609" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#333" offset="0"/>
+   <stop stop-color="#4f4f4f" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient24432" x1="-6.0604" x2="-12.279" y1="-3.6953" y2="-.10524" gradientTransform="matrix(.36141 -.85528 .85528 .36141 13.273 .34069)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ff1857" offset="0"/>
+   <stop stop-color="#ffcb3f" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient30047" x1="-1.1223" x2="1.7518" y1="9.7446" y2="12.619" gradientTransform="matrix(.65801 .75301 -.4534 .89131 13.684 .041771)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#85e2ff" offset="0"/>
+   <stop stop-color="#0172ff" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <rect transform="rotate(-6.4422)" x=".46712" y="2.367" width="13.992" height="13.992" ry="1.1671" fill="url(#linearGradient890)" stroke-width=".96153"/>
+ <image x="4.1299" y="3.7765" width="8.9957" height="10.319" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAnCAYAAABqippxAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAA GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAA7ZJREFUWIW9mOtS4kAUhL9wFXG9 1r7/K66AKIQk+2O6mZMRlKjlVKUS4lx6+vTpM7FieKuKe6frW636vEuvjYqrA1qg+S6g8UAQE2AO XOuahTl+BYhBLIA74BG4B5bAVH2+xcrkgj6VgMyAP8Bf4IHETAts9Df0vNP7QYAuBTKmz8aDFu+A KwFtyXqpfxqI2ZiSNHFLYuU6jB1r0YMAHMLv9qeAICBzkh5uSAxMyPqa6X0N7HUZxMWa+UysYy10 CzyRQrIUkBF9TxnpuRGQQYx8BCRq415A7kjsjAsQ8SrDdJFwPwJibdyQBPqo5xl5910AZJOrtLjB XBSic0DMxhWJhScSK4sCRFeMMZCKHKKa7DFn2zmxGsiMlCFLckgg77hRX4vXwv5DFm8E0pwDco4R G5jZeBAg96+BV2CrZ7Mxos+M9eLrbIhOAfEOFwIQRWrK34AV8Kxn6LMSsyiKtwnveu1UaGK2LHWf 0k9PA1mRXXVMziYzGv2lDmPfMVMCiZNYG4vQr9Wkr5pwr/fWkwH7Pid50Kd6OQUklvol/XRtNKEL 24yshVfyscDVOmaeXTem9NHwIhCn3UQgbgIbUXg7TTYh270z6EW/7byjMN99ANNQ+EsUawRhkd6G XTu+G92npDRdah77RkfWSxRv9Je6YKYHJNYVl3rXFbPxIiCN2LolV+KWbOtmO4IpU7pXAhyaUyK9 om9gdQiLhegrMrLVFdPZzwb/RtLUzixGIBbWktMi3WmCVv2u1Md6uCYbl0MY2YjHzRutsVbfxkJ0 ytk7LMJYwGK6zuhnSCVmFmG3G/V1eGbh91TXcbwZiUAWBRut2DCVE/UtzyTRSzqF5xDYsKidYfGw 3XnXlSaYh51aWK4rL9rtgvcWHbMCLWKtuO9Ba+xJIdnquYXsI+Xhxky05HivBaii7wWxpjiMe42L BW8rILXmWhFO/E5NW65dcxcm3WiQ/QOS2HxIMnsRxC7cbe9rbdx+9Er2kiMjzooN8E/ATOOz3m00 EAGLonbhq7WI09J6cHgdbmvkaGhmxIJcaSH7QE3SxkoLuFCtBcSfndPAqLPrEOa2x7h1xf3ISHRO h8O7NM2euBbQFfnzgsDGG6fPqhcdFY08nhmq8D5O6r+vSWFbqG8ZlkHfweUJzYPj5+NHE9qcRiTW ViQ9bcPYLwEpQX3WXBoqEhPPJKZ2fHBQHgpkSLOWNiSdHY3qt4BEbb2RQmI2Bv03YOi/rsrmiupS Eb95fxVIWRY6BmbLT7cI5kvtP0lPlE8DkVVIAAAAAElFTkSuQmCC "/>
+ <g fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+  <path d="m7.9189 4.2251c-0.014477 0.00212-0.028716 0.00492-0.043031 0.00777-0.027554 0.00548-0.054736 0.012656-0.081545 0.020784-0.013479 0.00409-0.026688 0.00845-0.039941 0.013193-0.20982 0.075043-0.38952 0.23131-0.49004 0.44875-0.00199 0.0043-0.00422 0.00852-0.00614 0.012852-0.00204 0.00461-0.00405 0.00915-0.00602 0.013804l-2.1993 5.2045c-0.18541 0.43877 0.018134 0.94137 0.45691 1.1268 0.43877 0.18541 0.94131-0.01861 1.1267-0.45738l1.6204-3.8342 2.5106 3.3202c0.28729 0.37995 0.82449 0.45459 1.2044 0.16731 0.37995-0.28729 0.45412-0.82444 0.16683-1.2044l-3.4077-4.5068c-0.00305-0.00403-0.00612-0.00795-0.00922-0.011908-0.00294-0.00375-0.00611-0.00727-0.0091-0.010955-0.15075-0.18617-0.36327-0.29364-0.58508-0.31497-0.01401-0.00135-0.027887-0.00234-0.041956-3e-3 -0.027983-0.00131-0.056095-0.00161-0.084151-1.661e-4 -0.021066 0.00108-0.042142 0.0028-0.063147 0.00544-0.00647 7.966e-4 -0.013078 0.00149-0.019521 0.00243z" fill="url(#linearGradient24432)" stroke-width=".29271"/>
+  <path d="m8.5213 7.8829 1.2831 1.6935c0.075547 0.099712 0.07977 0.25079 0.046203 0.37131l-0.74122 2.6611c-0.033566 0.12051-0.18889 0.13984-0.25097 0.03123l-1.3708-2.3983c-0.062077-0.10861-0.09501-0.25612-0.046203-0.37131l0.82892-1.9563c0.048807-0.11519 0.17542-0.13094 0.25097-0.031229z" fill="url(#linearGradient30047)" stroke-width=".21904"/>
+ </g>
+</svg>

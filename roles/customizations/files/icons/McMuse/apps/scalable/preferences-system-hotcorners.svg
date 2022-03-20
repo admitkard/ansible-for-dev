@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <linearGradient id="b" x1="399.57" x2="399.57" y1="545.8" y2="517.8" gradientTransform="matrix(2.1429 0 0 2.1429 -826.36 -1107.5)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#3889e9" offset="0"/>
+   <stop stop-color="#5ea5fb" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient936" x1="-26.286" x2="-86.14" y1="2.0268" y2="62.103" gradientTransform="translate(150.68 23.609)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#15afff" offset="0"/>
+   <stop stop-color="#1560ff" offset="1"/>
+  </linearGradient>
+ </defs>
+ <circle cx="32.02" cy="32.044" r="0" fill="url(#b)" stroke-width="1.5715"/>
+ <g transform="translate(-61.943 -23.609)">
+  <path d="m114.25 25.492c-0.30437-0.02385-0.61634-0.01733-0.93165 0.02148l-45.48 5.6035c-2.5225 0.31081-4.303 2.5927-3.9922 5.1152l5.6035 45.48c0.3108 2.5225 2.5927 4.303 5.1152 3.9922l45.48-5.6035c2.5225-0.3108 4.303-2.5927 3.9922-5.1152l-5.6035-45.48c-0.27196-2.2072-2.0529-3.8466-4.1836-4.0137z" fill="url(#linearGradient936)" image-rendering="optimizeSpeed" stroke-linecap="round" stroke-width="2"/>
+  <g stroke-width="4.4466">
+   <path d="m79.766 29.648-11.926 1.4688c-2.5225 0.31081-4.303 2.5927-3.9922 5.1152l1.3438 10.906a18.822 18.822 0 0 0 14.574-17.49z" opacity=".15" style="paint-order:markers stroke fill"/>
+   <path d="m73.811 30.381-5.9707 0.73633c-2.5225 0.31081-4.303 2.5927-3.9922 5.1152l0.61914 5.0215a12.94 12.94 0 0 0 9.3438-10.873z" opacity=".15" style="paint-order:markers stroke fill"/>
+   <path d="m67.609 31.17c-2.0645 0.36232-3.584 2.043-3.7715 4.0684a7.0567 7.0567 0 0 0 3.7715-4.0684z" opacity=".15" style="paint-order:markers stroke fill"/>
+  </g>
+  <g stroke-width="4.4466">
+   <path d="m122.7 64.115a18.822 18.822 0 0 0-14.611 17.459l11.959-1.4727c2.5225-0.3108 4.303-2.5927 3.9922-5.1152z" opacity=".15" style="paint-order:markers stroke fill"/>
+   <path d="m123.42 69.998a12.94 12.94 0 0 0-9.377 10.842l6-0.73828c2.5225-0.3108 4.303-2.5927 3.9922-5.1152z" opacity=".15" style="paint-order:markers stroke fill"/>
+   <path d="m124.04 76.014a7.0567 7.0567 0 0 0-3.7852 4.041c2.0632-0.35274 3.5833-2.0241 3.7852-4.041z" opacity=".15" style="paint-order:markers stroke fill"/>
+  </g>
+ </g>
+</svg>
