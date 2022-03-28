@@ -27,6 +27,15 @@
       ]
     state: present
   become: true
+
+- name: Install Auto-cpufreq
+  shell: snap install auto-cpufreq
+  become: true
+
+- name: Install Auto-cpufreq daemon
+  shell: auto-cpufreq --install
+  become: true
+
    
 - name: Create tmp download directory
   file:

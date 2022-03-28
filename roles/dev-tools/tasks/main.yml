@@ -49,7 +49,7 @@
     dest: "{{ansible_user_dir}}/dev-help.sh"
 
 - name: Custom prompt
-  shell: cat ../files/custom_prompt.sh >> ~/.bashrc
+  shell: cat ../files/custom_prompt >> ~/.bashrc
 
 - name: Modify file watches limit
   ansible.posix.sysctl:

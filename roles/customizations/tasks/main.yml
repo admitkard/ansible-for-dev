@@ -9,14 +9,16 @@
     state: directory
 
 - name: Copy themes
-  copy:
-    src: themes
+  unarchive:
+    src: "{{ item }}"
     dest: "{{ansible_user}}/.themes"
+  with_fileglob: themes/*.tar.gz
 
-- name: Copy Icons
-  copy:
-    src: icons
-    dest: "{{ansible_user}}/.icons"
+- name: Copy icons
+  unarchive:
+    src: "{{ item }}"
+    dest: "{{ansible_user}}/.themes"
+  with_fileglob: icons/*.tar.gz
 
 - name: Set Theme
   community.general.dconf:
