@@ -23,4 +23,4 @@
 # ubuntu
 - name: Favorites
   set_fact:
-    pinned_favorites: "{{pinned_favorites + ['google-chrome.desktop', 'nautilus.desktop'] }}"
+    pinned_favorites: "{{pinned_favorites + ['nautilus.desktop', 'google-chrome.desktop'] }}"

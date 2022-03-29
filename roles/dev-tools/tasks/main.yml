@@ -1,15 +1,6 @@
 - name: Install bash apps
   apt:
-    name:
-      [
-        "nginx",
-        "terminator",
-        "git",
-        "vim",
-        "htop",
-        "tldr",
-        "exa",
-      ]
+    name: "{{bash_apps.dev}}"
     state: present
   become: true
   become_user: root
@@ -36,7 +27,7 @@
 
 - name: Add MS Teams to Favorites
   set_fact:
-    pinned_favorites: "{{pinned_favorites + ['teams.desktop'] }}"
+    pinned_favorites: "{{pinned_favorites + ['teams_teams.desktop'] }}"
 
 - name: Copy vimrc
   copy:
@@ -74,3 +65,40 @@
     src: cert
     dest: '{{home}}/.local/share'
 
+- name: Setup github config
+  shell: git config --global user.name "{{user_vars.github.name}}" && git config --global user.email "{{user_vars.github.email}}"
+
+- name: Open github to add new ssh keys
+  shell: xdg-open https://github.com/settings/ssh/new
+
+- name: Copy ssh key to clipboard
+  shell: xclip -sel clip < {{home}}/.ssh/id_rsa.pub
+
+- name: Wait for user to copy ssh key
+  pause:
+    prompt: "SSH key is copied to clipboard. Paste it in github, and then press enter"
+
+- name: Confirm ssh key pasted
+  pause:
+    prompt: "Are you sure that ssh key is added to github"
+
+- name: Create code directory
+  file:
+    path: "{{home}}/code"
+    state: directory
+
+- name: Clone repositories
+  shell: git clone git@github.com:admitkard/{{item}}.git
+  with_items:
+    - akd_web
+    - akd_integration_gateway
+    - akd_ams
+    - akd_iam
+    - akd_scripts
+    - akd_npm_packages
+    - ansible-for-dev
+    - ansible-deployment-scripts
+    - akd_knowledge
+  args:
+    creates: "{{home}}/code/{{item}}"
+    

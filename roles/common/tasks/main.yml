@@ -15,20 +15,7 @@
 
 - name: Install bash apps
   apt:
-    name:
-      [
-        "curl",
-        "wget",
-        "jq",
-        "neofetch",
-        "peek",
-        "xclip",
-        "btop",
-        "bat",
-        "gnome-tweaks",
-        "openjdk-8-jdk",
-        "dbus-x11",
-      ]
+    name: "{{bash_apps.common}}"
     state: present
   become: true
   become_user: root

@@ -1,8 +1,15 @@
 - hosts: laptop
+- name: Include vars of stuff.yaml into the 'stuff' variable (2.2).
+  include_vars:
+    file: userVariables.yaml
+    name: user_vars
   roles:
     - ide
     - dev-tools
 
   post_tasks:
     - name: Pin Favorites
-      shell: gsettings set org.gnome.shell favorite-apps "{{pinned_favorites}}"
+      community.general.dconf:
+        key: /org/gnome/shell/favorite-apps
+        value: "{{pinned_favorites}}"
+        state: present

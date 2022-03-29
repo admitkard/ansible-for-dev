@@ -22,10 +22,6 @@ yarn:
   download_url: 'https://yarnpkg.com/install.sh'
   destination: 'yarn-install.sh'
 
-teams:
-  download_url: 'https://go.microsoft.com/fwlink/p/?LinkID=2112886&clcid=0x409&culture=en-us&country=US'
-  destination: 'teams.deb'
-
 compass:
   download_url: 'https://downloads.mongodb.com/compass/mongodb-compass_1.30.1_amd64.deb'
   destination: 'mongodb-compass.deb'
@@ -33,3 +29,28 @@ compass:
 nosqlbooster:
   download_url: 'https://s3.mongobooster.com/download/releasesv7/nosqlbooster4mongo-7.1.0.AppImage'
   destination: 'nosqlbooster.AppImage'
+
+
+bash_apps:
+  common: [
+    "curl",
+    "wget",
+    "jq",
+    "neofetch",
+    "peek",
+    "xclip",
+    "btop",
+    "bat",
+    "gnome-tweaks",
+    "openjdk-8-jdk",
+    "dbus-x11",
+  ]
+  dev: [
+    "nginx",
+    "terminator",
+    "git",
+    "vim",
+    "htop",
+    "tldr",
+    "exa",
+  ]

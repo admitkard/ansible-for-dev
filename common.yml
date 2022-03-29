@@ -10,7 +10,11 @@
         creates: "{{home}}/.ansible/collections/ansible_collections/{{ item | replace('.', '/') }}"
       with_items:
         - community.general
+        - ansible.posix
 
   post_tasks:
     - name: Pin Favorites
-      shell: gsettings set org.gnome.shell favorite-apps "{{pinned_favorites}}"
+      community.general.dconf:
+        key: /org/gnome/shell/favorite-apps
+        value: "{{pinned_favorites}}"
+        state: present
