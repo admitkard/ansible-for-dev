@@ -36,4 +36,4 @@
     state: directory
 
 - import_tasks: gconf_settings.yml
-# - import_tasks: gnome_extensions.yml
+- import_tasks: gnome_extensions.yml
