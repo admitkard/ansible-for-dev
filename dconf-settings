@@ -1,0 +1,69 @@
+/org/gnome/shell/favorite-apps
+  ['org.gnome.Nautilus.desktop', 'code.desktop', 'teams_teams.desktop', 'firefox_firefox.desktop']
+
+/org/gnome/control-center/last-panel
+  'wifi'
+
+/org/gnome/control-center/last-panel
+  'ubuntu'
+
+/org/gnome/desktop/interface/gtk-theme
+  'Yaru'
+
+/org/gnome/desktop/interface/color-scheme
+  'prefer-light'
+/org/gnome/desktop/interface/icon-theme
+  'Yaru'
+/org/gnome/gedit/preferences/editor/scheme
+  'Yaru'
+
+/org/gnome/desktop/interface/gtk-theme
+  'Yaru-dark'
+
+/org/gnome/desktop/interface/color-scheme
+  'prefer-dark'
+/org/gnome/gedit/preferences/editor/scheme
+  'Yaru-dark'
+
+/org/gnome/desktop/interface/gtk-theme
+  'Yaru-blue-dark'
+
+/org/gnome/desktop/interface/icon-theme
+  'Yaru-blue'
+
+/org/gnome/shell/extensions/dash-to-dock/extend-height
+  false
+
+/org/gnome/shell/extensions/dash-to-dock/dock-fixed
+  false
+
+/org/gnome/shell/extensions/dash-to-dock/dock-position
+  'BOTTOM'
+
+/org/gnome/shell/extensions/dash-to-dock/dash-max-icon-size
+  42
+
+/org/gnome/shell/extensions/dash-to-dock/dash-max-icon-size
+  40
+
+/org/gnome/shell/extensions/dash-to-dock/dash-max-icon-size
+  38
+
+/org/gnome/shell/extensions/dash-to-dock/dash-max-icon-size
+  36
+
+/org/gnome/shell/extensions/dash-to-dock/dash-max-icon-size
+  34
+
+/org/gnome/shell/extensions/dash-to-dock/dash-max-icon-size
+  32
+
+/org/gnome/control-center/last-panel
+  'multitasking'
+
+/org/gnome/mutter/dynamic-workspaces
+  false
+
+/org/gnome/desktop/wm/preferences/num-workspaces
+  5
+

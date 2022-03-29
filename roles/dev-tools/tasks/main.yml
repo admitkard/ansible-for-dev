@@ -23,7 +23,8 @@
 - name: Download MS Teams
   community.general.snap:
     name: teams
-    state: present  
+    state: present
+  become: true
 
 - name: Add MS Teams to Favorites
   set_fact:
@@ -66,7 +67,7 @@
     dest: '{{home}}/.local/share'
 
 - name: Setup github config
-  shell: git config --global user.name "{{user_vars.github.name}}" && git config --global user.email "{{user_vars.github.email}}"
+  shell: git config --global user.name "{{github.name}}" && git config --global user.email "{{github.email}}"
 
 - name: Open github to add new ssh keys
   shell: xdg-open https://github.com/settings/ssh/new

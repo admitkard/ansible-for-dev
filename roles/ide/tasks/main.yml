@@ -53,7 +53,7 @@
     src: nosqlbooster
     dest: "{{home}}/.local/share"
   become: true
-  
+
 - name: Download NoSQLBooster
   get_url: url={{nosqlbooster["download_url"]}} dest={{home}}/.local/share/nosqlbooster/{{nosqlbooster["destination"]}}
   become: true
@@ -62,6 +62,7 @@
   file:
     path: "{{home}}/.local/share/nosqlbooster/{{nosqlbooster[\"destination\"]}}"
     mode: u+x,g+x,o+x
+  become: true
 
 - name: Add NoSQLBooster Icon
   copy:
@@ -73,3 +74,4 @@
   file:
     path: "{{home}}/.local/share/applications/nosqlbooster.desktop"
     mode: u+x,g+x,o+x
+  become: true

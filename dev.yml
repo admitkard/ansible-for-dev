@@ -1,8 +1,4 @@
 - hosts: laptop
-- name: Include vars of stuff.yaml into the 'stuff' variable (2.2).
-  include_vars:
-    file: userVariables.yaml
-    name: user_vars
   roles:
     - ide
     - dev-tools

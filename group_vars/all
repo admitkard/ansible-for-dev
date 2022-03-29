@@ -1,5 +1,5 @@
 ansible_python_interpreter: /usr/bin/python3
-current_user: "{{user}}"
+current_user: "{{lookup( 'env', 'CURRENT_USER')}}"
 home: "/home/{{current_user}}"
 
 pinned_favorites: []
