@@ -1,23 +1,23 @@
 - name: Create theme directory
   file:
-    path: "{{ansible_user}}/.themes"
+    path: "{{current_user}}/.themes"
     state: directory
 
 - name: Create icons directory
   file:
-    path: "{{ansible_user}}/.icons"
+    path: "{{current_user}}/.icons"
     state: directory
 
 - name: Copy themes
   unarchive:
     src: "{{ item }}"
-    dest: "{{ansible_user}}/.themes"
+    dest: "{{current_user}}/.themes"
   with_fileglob: themes/*.tar.gz
 
 - name: Copy icons
   unarchive:
     src: "{{ item }}"
-    dest: "{{ansible_user}}/.themes"
+    dest: "{{current_user}}/.themes"
   with_fileglob: icons/*.tar.gz
 
 - name: Set Theme

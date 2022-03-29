@@ -7,7 +7,7 @@
     - name: Community Install
       shell: ansible-galaxy collection install {{ item }}
       args:
-        creates: "{{ansible_user_dir}}/.ansible/collections/ansible_collections/{{ item | replace('.', '/') }}"
+        creates: "{{home}}/.ansible/collections/ansible_collections/{{ item | replace('.', '/') }}"
       with_items:
         - community.general
 

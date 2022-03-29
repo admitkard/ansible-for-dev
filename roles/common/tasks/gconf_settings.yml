@@ -1,3 +1,4 @@
+# ubuntu
 - name: Dconf settings
   community.general.dconf:
     key: "{{ item.path }}/{{ item.key }}"

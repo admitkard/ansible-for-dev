@@ -4,6 +4,7 @@
 - name: Install VSCode
   apt: deb={{download_location}}{{vscode["destination"]}}
   become: true
+  become_user: root
 
 
 - name: Add VSCode to Favorites
@@ -45,6 +46,7 @@
 - name: Install MongoDB Compass
   apt: deb={{download_location}}{{compass["destination"]}}
   become: true
+  become_user: root
 
 - name: Copy NoSQLBooster Files
   copy:

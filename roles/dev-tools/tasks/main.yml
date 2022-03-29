@@ -12,6 +12,7 @@
       ]
     state: present
   become: true
+  become_user: root
 
 - name: Install NVM
   shell: "curl -o- -L {{nvm[\"download_url\"]}} | bash"
@@ -26,13 +27,12 @@
   shell: "curl -o- -L {{yarn[\"download_url\"]}} | bash"
   args:
     creates: "{{home}}/.yarn"
+  ignore_errors: true
 
 - name: Download MS Teams
-  get_url: url={{teams[\"download_url\"]}} dest={{download_location}}{{teams["destination"]}}
-
-- name: Install MS Teams
-  apt: deb={{download_location}}{{teams["destination"]}}
-  become: true
+  community.general.snap:
+    name: teams
+    state: present  
 
 - name: Add MS Teams to Favorites
   set_fact:
@@ -41,34 +41,36 @@
 - name: Copy vimrc
   copy:
     src: .vimrc
-    dest: "{{ansible_user_dir}}/.vimrc"
+    dest: "{{home}}/.vimrc"
 
 - name: Copy dev-help
   copy:
-    src: dev-help.sh
-    dest: "{{ansible_user_dir}}/dev-help.sh"
+    src: .dev-help.sh
+    dest: "{{home}}/.dev-help.sh"
 
 - name: Custom prompt
-  shell: cat ../files/custom_prompt >> ~/.bashrc
+  shell: cat roles/dev-tools/files/custom-prompt >> ~/.bashrc
 
 - name: Modify file watches limit
   ansible.posix.sysctl:
     name: fs.inotify.max_user_watches
     value: 1048576
     state: present
+  become: true
+  become_user: root
 
 - name: Add ssh key
-  shell: "ssh-keygen -t rsa -b 4096 -f {{ansible_user_dir}}/.ssh/id_rsa -q -N ''"
+  shell: "ssh-keygen -t rsa -b 4096 -f {{home}}/.ssh/id_rsa -q -N ''"
   args:
-    creates: "{{ansible_user_dir}}/.ssh/id_rsa"
+    creates: "{{home}}/.ssh/id_rsa"
 
 - name: Copy ssh key to desktop
   copy:
-    src: "{{ansible_user_dir}}/.ssh/id_rsa.pub"
-    dest: "{{ansible_user_dir}}/Desktop/ssh-key"
+    src: "{{home}}/.ssh/id_rsa.pub"
+    dest: "{{home}}/Desktop/ssh-key"
 
 - name: Install certificates
   copy:
     src: cert
-    dest: '{{ansible_user_dir}}/.local/share'
+    dest: '{{home}}/.local/share'
 

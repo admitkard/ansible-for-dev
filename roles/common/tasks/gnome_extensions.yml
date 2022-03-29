@@ -19,5 +19,5 @@
     value: '{{ enabled_gnome_extensions }}'
     state: present
 
-- name: Install Cpufreq
-  shell: 'sudo ~/.local/share/gnome-shell/extensions/cpupower@mko-sl.de/tool/installer.sh'
+#- name: Install Cpufreq
+#  shell: 'sudo ~/.local/share/gnome-shell/extensions/cpupower@mko-sl.de/tool/installer.sh'
